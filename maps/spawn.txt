@@ -4,10 +4,10 @@
 [header]
 width=1
 height=1
-location=0,0,3
+hero_pos=0,0
 
 [event]
 type=event
 location=0,0,1,1
-activate=on_trigger
-intermap=maps/main.txt,21,81
+activate=on_load
+intermap=maps/main.txt,7,7
