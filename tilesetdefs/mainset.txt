@@ -1,0 +1,7 @@
+img=images/tilesets/main.png
+
+# [index],[left_x],[top_y],[width],[height],[offset_x],[offset_y]
+# tile=264,0,0,128,64,32,32
+
+#    i x y  w  h ox oy
+tile=0,1,1,64,32,32,16

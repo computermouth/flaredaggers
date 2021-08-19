@@ -1,0 +1,3 @@
+[quest]
+requires_not_status=welcomecomplete
+quest_text=Become welcomed

@@ -1,0 +1,33 @@
+## settings.txt
+
+description=Collect daggers
+
+
+## version of this mod. Flare version numbers are in the format: major.minor.patch
+version=0.0.1
+
+
+## list of mods we depend on
+# requires=fantasycore,empyrean_campaign
+
+## using the ':' character, you can specify the minimum and maximum versions of a required mod. Using '0' omits the version requirement. Here are some examples of using this syntax:
+
+## fantasycore >= 1.0 required
+# requires=fantasycore:1.0:0
+
+## fantasycore <= 1.0 required
+# requires=fantasycore:0:1.0
+
+## fantasycore >= 1.0 and <= 2.0 required
+# requires=fantasycore:1.0:2.0
+
+
+## "games" are used to group mods that work together
+## using "default" as the game will allow it to be used with any game
+game=flare-daggers
+
+
+## the following control which engine versions are required for the mod
+## if in doubt, feel free to omit these
+# engine_version_min=0.90.01
+# engine_version_max=1.0

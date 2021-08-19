@@ -1,0 +1,7 @@
+# Miscellaneous engine settings
+
+#save_hpmp=1
+#aim_assist=32
+window_title=flaredaggers
+save_prefix=flaredaggers
+#currency_id=4

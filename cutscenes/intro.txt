@@ -1,0 +1,12 @@
+[vscroll]
+#image=images/menus/logo.png
+#separator=8
+
+text=Dank Soles - wow rad
+separator=16
+
+text=Smoke grass
+separator=16
+text=Eat ass
+separator=32
+text=Hell yeah brother
