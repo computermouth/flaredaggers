@@ -1,0 +1,9 @@
+# layer=direction, list of types in order of appearance, first item will be printed on screen first
+layer=0,head
+layer=1,head
+layer=2,head
+layer=3,head
+layer=4,head
+layer=5,head
+layer=6,head
+layer=7,head

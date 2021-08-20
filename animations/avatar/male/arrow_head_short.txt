@@ -1,58 +1,91 @@
 image=images/avatar/male/arrow_head_short.png
 
-render_size=32,64
-render_offset=1,1
+# ["N", "NE", "E", "SE", "S", "SW", "W", "NW"]
+# [ 0     1    2     3    4     5    6     7 ]
+
+# dir
+# ["W", "NW", "N", "NE", "E", "SE", "S", "SW"]
+# int
+# [ 0     1    2     3    4     5    6     7 ]
+# key
+# ["A", "WA", "W", "WD", "D", "SD", "S", "SA"]
 
 [stance]
 position=0
-frames=8
-duration=4
+frames=1
+duration=4ms
+type=back_forth
+#     i d   x y  w  h ox oy
+frame=0,0,  0,0,64,32,32,16
+frame=0,1, 64,0,64,32,32,16
+frame=0,2,128,0,64,32,32,16
+frame=0,3,192,0,64,32,32,16
+frame=0,4,256,0,64,32,32,16
+frame=0,5,320,0,64,32,32,16
+frame=0,6,384,0,64,32,32,16
+frame=0,7,448,0,64,32,32,16
+
+[run]
+position=0
+frames=1
+duration=4ms
+#type=looped
+type=back_forth
+#     i d   x y  w  h ox oy
+frame=0,0,  0,0,64,32,32,16
+frame=0,1, 64,0,64,32,32,16
+frame=0,2,128,0,64,32,32,16
+frame=0,3,192,0,64,32,32,16
+frame=0,4,256,0,64,32,32,16
+frame=0,5,320,0,64,32,32,16
+frame=0,6,384,0,64,32,32,16
+frame=0,7,448,0,64,32,32,16
+
+[shoot]
+position=0
+frames=1
+duration=4ms
+#type=play_once
 type=back_forth
 
 [run]
 position=0
-frames=8
-duration=4
-type=looped
-
-[shoot]
-position=0
-frames=8
-duration=4
-type=play_once
-
-[run]
-position=0
-frames=8
-duration=4
-type=looped
+frames=1
+duration=4ms
+#type=looped
+type=back_forth
 
 [die]
 position=0
-frames=8
-duration=4
-type=play_once
+frames=1
+duration=4ms
+#type=play_once
+type=back_forth
 
 [cast]
 position=0
-frames=8
-duration=4
-type=play_once
+frames=1
+duration=4ms
+#type=play_once
+type=back_forth
 
 [swing]
 position=0
-frames=8
-duration=4
-type=play_once
+frames=1
+duration=4ms
+#type=play_once
+type=back_forth
 
 [hit]
 position=0
-frames=8
-duration=4
-type=play_once
+frames=1
+duration=4ms
+#type=play_once
+type=back_forth
 
 [block]
 position=0
-frames=8
-duration=4
-type=play_once
+frames=1
+duration=4ms
+#type=play_once
+type=back_forth

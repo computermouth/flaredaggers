@@ -14,6 +14,8 @@
 Bootable!
 12. images/menus/{actionbar_trim.png,attention_glow.png,character.png,dialog_box.png,disabled.png,enemy_bar_hp.png,enemy_bar.png,inventory.png,num_picker_bg.png,pause_menu.png,powers_unlock.png,slot_checked.png,slot_empty.png,slot_selected.png,stash.png,vendor.png}
 13. images/menus/buttons/{auto_equip.png,listbox_char.png,upgrade.png,log.png,powers.png}
+14. animations/hero.txt
+15. engine/hero_layers.txt
 
 TODO:
 ```
