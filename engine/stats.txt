@@ -1,0 +1,19 @@
+# Avatar Attributes Definitions
+# Values should be integer
+
+speed=6
+
+stat=hp,1
+stat_per_level=hp,0
+
+stat=mp,0
+stat_per_level=mp,0
+
+# TODO
+
+# stat=dmg_ranged,1
+# stat=dmg_ranged_max,11
+# stat_per_level=hp,0
+
+# sfx_step=cloth
+# cooldown=0s

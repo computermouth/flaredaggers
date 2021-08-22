@@ -1,19 +1,26 @@
-# Settings for the GameNew menu
-# the first two values are x,y positions
-# some items have two more values, width and height
-show_classlist=0
-classlist_label=-5000,-5000
+## # Settings for the GameNew menu
+## # the first two values are x,y positions
+## # some items have two more values, width and height
 
-# button_prev=136,216
-# button_next=480,216
 button_exit=-71,0,bottom
 button_create=71,0,bottom
-# button_permadeath=256,425
 
+name_label=320,388,center,top
 name_input=256,404
 
-portrait_label=320,40
-name_label=320,388
-# permadeath_label=285,436
-
 portrait=160,60,320,320
+
+show_classlist=0
+# show_randomize=0 # maybe only in new versions
+
+
+# hidden things
+
+button_prev=-5000,-5000
+button_next=-5000,-5000
+button_permadeath=-5000,-5000
+button_randomize=-5000,-5000
+
+portrait_label=-5000,-5000
+permadeath_label=-5000,-5000
+classlist_label=-5000,-5000
